@@ -1,3 +1,22 @@
 baseURL = "https://podcast.dvor.me/"
 languageCode = "ru"
 title = "День за днём"
+
+publishDir = "docs"
+
+[params]
+  description = "Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем."
+  media_prefix = "https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/"
+
+  [params.feed]
+    copyright = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"
+
+    itunes_subtitle = "Истории из жизни в Нидерландах."
+    itunes_author = "dvor"
+    itunes_owner_name = "dvor"
+    itunes_owner_email = "d@dvor.me"
+    itunes_summary = "Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем."
+    itunes_image = "https://podcast.dvor.me/images/podcast-cover-large.jpg"
+    itunes_top_category = "Society & Culture"
+    itunes_first_sub_category = "Personal Journals"
+    explicit = "no"

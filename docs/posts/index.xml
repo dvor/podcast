@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    >
+  <channel>
+    <title>День за днём</title>
+    <atom:link href="https://podcast.dvor.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://podcast.dvor.me/</link>
+    <description>Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем.</description>
+    <lastBuildDate>Mon, 18 Mar 2019 20:55:02 &#43;0100</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <language>ru</language>
+    <copyright>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</copyright>
+    <itunes:subtitle>Истории из жизни в Нидерландах.</itunes:subtitle>
+    <itunes:author>dvor</itunes:author>
+    <googleplay:author>dvor</googleplay:author>
+    <googleplay:email>d@dvor.me</googleplay:email>
+    <itunes:summary>Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем.</itunes:summary>
+    <googleplay:description>Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем.</googleplay:description>
+    <itunes:owner>
+      <itunes:name>dvor</itunes:name>
+      <itunes:email>d@dvor.me</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://podcast.dvor.me/images/podcast-cover-large.jpg" />
+    <googleplay:image href="https://podcast.dvor.me/images/podcast-cover-large.jpg"></googleplay:image>
+    <image>
+      <url>https://podcast.dvor.me/images/podcast-cover-large.jpg</url>
+      <title>День за днём</title>
+      <link>https://podcast.dvor.me/</link>
+    </image>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Personal Journals" /></itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <googleplay:explicit>no</googleplay:explicit>
+    <generator>Hugo -- gohugo.io</generator>
+        <item>
+          <title>Выпуск 1</title>
+          <link>https://podcast.dvor.me/posts/episode-001/</link>
+          <pubDate>Mon, 18 Mar 2019 20:55:02 +0100 </pubDate>
+          <dc:creator>dvor</dc:creator>
+          <guid>https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3</guid>
+          <itunes:author>dvor</itunes:author>
+          <itunes:summary>- О себе и об этом подкасте.
+- Покупка микрофона.
+- 8 марта и немного феминизма.
+- Пришло время платить по счетам.</itunes:summary>
+        <description>- О себе и об этом подкасте.
+- Покупка микрофона.
+- 8 марта и немного феминизма.
+- Пришло время платить по счетам.</description>
+        <googleplay:description>- О себе и об этом подкасте.
+- Покупка микрофона.
+- 8 марта и немного феминизма.
+- Пришло время платить по счетам.</googleplay:description>
+        <content:encoded><![CDATA[<p><img src="https://podcast.dvor.me/images/episode-001.jpg" alt="" /></p>
+
+<ul>
+<li>О себе и об этом подкасте.</li>
+<li>Покупка микрофона.</li>
+<li>8 марта и немного феминизма.</li>
+<li>Пришло время платить по счетам.</li>
+</ul>
+
+<p><a href="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3">Аудио</a>
+<audio src="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3" preload="none"></p>
+]]></content:encoded><itunes:image href="https://podcast.dvor.me/images/episode-001.jpg"></itunes:image>
+          <googleplay:image href="https://podcast.dvor.me/images/episode-001.jpg"></googleplay:image><enclosure url="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3"  type="audio/mpeg" />
+          <itunes:explicit>no</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit>
+        </item></channel>
+</rss>
