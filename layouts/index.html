@@ -17,16 +17,35 @@
     </div>
 
     <div class="blog-index">
-        {{ $paginator := .Paginate (where .Pages "Type" "posts") 3 }}
+        {{ $paginator := .Paginate (where .Pages "Type" "posts") 10 }}
         {{ range $paginator.Pages }}
-          <article>
-              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-              {{ .Content }}
-          </article>
+            <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+                <time class="article-datetime" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                    {{ .Date.Day }} {{ index .Site.Data.rumonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                </time>
+
+                <div>
+                    {{ partial "content.html" . }}
+                </div>
+            </article>
         {{ end }}
     </div>
-    <div>
-        {{ template "_internal/pagination.html" . }}
+
+    <div class="paginator">
+        {{ if $paginator.HasNext }}
+            <a class="paginator-prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">← Назад</a>
+        {{ else }}
+            <div></div>
+        {{ end }}
+
+        {{ if $paginator.HasPrev }}
+            <a class="paginator-next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Вперед →</a>
+        {{ else }}
+            <div></div>
+        {{ end }}
     </div>
+
 </main>
 {{ end }}

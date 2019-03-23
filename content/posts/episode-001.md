@@ -13,8 +13,6 @@ plain_description: "- О себе и об этом подкасте.
 draft: false
 ---
 
-![](https://podcast.dvor.me/images/episode-001.jpg)
-
 - О себе и об этом подкасте.
 - Покупка микрофона.
 - 8 марта и немного феминизма.

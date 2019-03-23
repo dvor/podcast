@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-{{ partial "head.html" . }}
-</head>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
 
-<body>
-{{ partial "header.html" . }}
-{{ block "main" . }}
-{{end}}
+    <body>
+        {{ partial "header.html" . }}
+        <div id="main" class="main">
+            <div id="content" class="content">
+                {{ block "main" . }}
+                {{end}}
+            </div>
 
-{{ partial "footer.html" }}
+            {{ partial "sidebar.html" . }}
+            <div style="clear: both;"><!--expanding parent after floats --></div>
+        </div>
 
+        {{ partial "footer.html" }}
+    </body>
+</html>

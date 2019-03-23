@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <div class="card">
+        <p>{{ .Site.Params.Description }}</p>
+    </div>
+    <div class="card">
+        <p>Подписаться:</p>
+
+        <a target="_blank" rel="noopener noreferrer" href="{{ .Site.Params.rss_url }}"><i class="fas fa-rss fa-fw"></i> RSS</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="{{ .Site.Params.itunes_url }}"><i class="fas fa-podcast fa-fw"></i> iTunes</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="{{ .Site.Params.spotify_url }}"><i class="fab fa-spotify fa-fw"></i> Spotify</a>
+    </div>
+    <div class="card">
+        <p>Связаться:</p>
+
+        <a target="_blank" rel="noopener noreferrer" href="mailto:{{ .Site.Params.Email }}"><i class="far fa-envelope fa-fw"></i> {{ .Site.Params.Email }}</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://t.me/{{ .Site.Params.Telegram }}"><i class="fab fa-telegram-plane fa-fw"></i> {{ .Site.Params.Telegram }}</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/{{ .Site.Params.Facebook }}"><i class="fab fa-facebook-f fa-fw"></i> {{ .Site.Params.Facebook }}</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/{{ .Site.Params.Instagram }}"><i class="fab fa-instagram fa-fw"></i> {{ .Site.Params.Instagram }}</a>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://vk.com/{{ .Site.Params.Vkontakte }}"><i class="fab fa-vk fa-fw"></i> {{ .Site.Params.Vkontakte }}</a>
+    </div>
+</div>
