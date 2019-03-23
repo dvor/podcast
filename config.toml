@@ -8,6 +8,8 @@ publishDir = "docs"
   description = "Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем."
   media_prefix = "https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/"
 
+  author = "dvor"
+
   email = "d@dvor.me"
   telegram = "d_vor"
   facebook = "dmytro.vorobiov.31"
