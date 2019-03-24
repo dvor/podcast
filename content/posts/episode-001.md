@@ -16,7 +16,7 @@ draft: false
 - О себе и об этом подкасте.
 - Покупка микрофона.
 - 8 марта и немного феминизма.
-- Пришло время платить по счетам.
+- Время платить по счетам.
 
 [Аудио](https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3)
 <audio src="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-001.mp3" preload="none">
