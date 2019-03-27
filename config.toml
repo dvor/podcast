@@ -20,6 +20,7 @@ publishDir = "docs"
   itunes_url = "https://itunes.apple.com/nl/podcast/%D0%B4%D0%B5%D0%BD%D1%8C-%D0%B7%D0%B0-%D0%B4%D0%BD%D1%91%D0%BC/id1457128650"
   spotify_url = "https://open.spotify.com/show/2CeVRtHtyW6TI6Ams7pEE5?si=FGWBe1gOQB2zkDQTfpH01A"
   google_play_url = "https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Iguhwhngzhit5muhbknipl7ionq?t%3D%25D0%2594%25D0%25B5%25D0%25BD%25D1%258C_%25D0%25B7%25D0%25B0_%25D0%25B4%25D0%25BD%25D1%2591%25D0%25BC%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
+  yandex_music_url = "https://music.yandex.ru/album/7182470"
 
   [params.feed]
     copyright = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License"
