@@ -15,7 +15,7 @@
     <atom:link href="https://podcast.dvor.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <link>https://podcast.dvor.me/</link>
     <description>Истории из жизни в Нидерландах, а также абстрактные (и не очень) рассуждения на множество тем.</description>
-    <lastBuildDate>Mon, 18 Mar 2019 20:55:02 &#43;0100</lastBuildDate>
+    <lastBuildDate>Sun, 5 May 2019 23:57:53 &#43;0200</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>ru</language>
@@ -42,6 +42,43 @@
     <itunes:explicit>no</itunes:explicit>
     <googleplay:explicit>no</googleplay:explicit>
     <generator>Hugo -- gohugo.io</generator>
+        <item>
+          <title>Выпуск 2</title>
+          <link>https://podcast.dvor.me/posts/episode-002/</link>
+          <pubDate>Sun, 05 May 2019 23:57:53 +0200 </pubDate>
+          <dc:creator>dvor</dc:creator>
+          <guid>https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-002.mp3</guid>
+          <itunes:author>dvor</itunes:author>
+          <itunes:summary>- Поездка в Японию.
+- Не первая потеря телефона.
+- Японское землетрясение.
+- Рабочая поездка в Берлин.
+- Офисная политика, или как со всеми дружить.</itunes:summary>
+        <description>- Поездка в Японию.
+- Не первая потеря телефона.
+- Японское землетрясение.
+- Рабочая поездка в Берлин.
+- Офисная политика, или как со всеми дружить.</description>
+        <googleplay:description>- Поездка в Японию.
+- Не первая потеря телефона.
+- Японское землетрясение.
+- Рабочая поездка в Берлин.
+- Офисная политика, или как со всеми дружить.</googleplay:description>
+        <content:encoded><![CDATA[<ul>
+<li>Поездка в Японию.</li>
+<li>Не первая потеря телефона.</li>
+<li>Японское землетрясение.</li>
+<li>Рабочая поездка в Берлин.</li>
+<li>Офисная политика, или как со всеми дружить.</li>
+</ul>
+
+<p><a href="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-002.mp3">Аудио</a>
+<audio src="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-002.mp3" preload="none"></p>
+]]></content:encoded><itunes:image href="https://podcast.dvor.me/images/episode-002.jpg"></itunes:image>
+          <googleplay:image href="https://podcast.dvor.me/images/episode-002.jpg"></googleplay:image><enclosure url="https://media.blubrry.com/dvor/podcastdvor.ams3.cdn.digitaloceanspaces.com/episode-002.mp3"  type="audio/mpeg" />
+          <itunes:explicit>no</itunes:explicit>
+          <googleplay:explicit>no</googleplay:explicit>
+        </item>
         <item>
           <title>Выпуск 1</title>
           <link>https://podcast.dvor.me/posts/episode-001/</link>

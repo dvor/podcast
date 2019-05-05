@@ -6,10 +6,19 @@
     <description>Recent content on День за днём</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Mon, 18 Mar 2019 20:55:02 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 23:57:53 +0200</lastBuildDate>
     
 	<atom:link href="https://podcast.dvor.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Выпуск 2</title>
+      <link>https://podcast.dvor.me/posts/episode-002/</link>
+      <pubDate>Sun, 05 May 2019 23:57:53 +0200</pubDate>
+      
+      <guid>https://podcast.dvor.me/posts/episode-002/</guid>
+      <description> Поездка в Японию. Не первая потеря телефона. Японское землетрясение. Рабочая поездка в Берлин. Офисная политика, или как со всеми дружить.  Аудио </description>
+    </item>
     
     <item>
       <title>Выпуск 1</title>
